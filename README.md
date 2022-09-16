@@ -2,9 +2,9 @@
 
 A beautiful internet speed test meter UI.
 
-![image1](https://user-images.githubusercontent.com/107287484/190609652-ea9b2393-698c-41d0-8204-7027a7a00575.png)
-![image2](https://user-images.githubusercontent.com/107287484/190609720-92fd1408-d024-4e06-95ec-1c74aa88d170.png)
-![image3](https://user-images.githubusercontent.com/107287484/190609745-b7133ae5-3096-4e48-b432-e15645691e70.png)
+![image1](https://user-images.githubusercontent.com/107287484/190611188-859c0aaa-e8bb-4a88-94fd-ad31d23e4b5d.png)
+![image2](https://user-images.githubusercontent.com/107287484/190611194-a88ebd3a-5439-4c91-8efa-e39182e4b277.png)
+![image3](https://user-images.githubusercontent.com/107287484/190611202-bd324428-2254-47a7-be95-494db0f2433e.png)
 
 ## Getting Started
 
