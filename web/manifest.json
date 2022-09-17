@@ -1,6 +1,6 @@
 {
-    "name": "rayyan_speed_test",
-    "short_name": "rayyan_speed_test",
+    "name": "rayyan_speed_test_ui",
+    "short_name": "rayyan_speed_test_ui",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

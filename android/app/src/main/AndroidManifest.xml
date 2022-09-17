@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.rayyantech.rayyan_speed_test">
+    package="com.rayyantech.rayyan_speed_test_ui">
    <application
-        android:label="rayyan_speed_test"
+        android:label="rayyan_speed_test_ui"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

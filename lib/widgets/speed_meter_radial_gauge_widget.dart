@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:rayyan_speed_test/home_screen.dart';
 import 'package:syncfusion_flutter_gauges/gauges.dart';
 
 class SpeedMeterRadialGaugeWidget extends StatelessWidget {

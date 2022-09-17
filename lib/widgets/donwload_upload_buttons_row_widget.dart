@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rayyan_speed_test/widgets/my_text_button_widget.dart';
+import 'package:rayyan_speed_test_ui/widgets/my_text_button_widget.dart';
 
 // ignore: must_be_immutable
 class DownloadUploadButtonsRowWidget extends StatefulWidget {

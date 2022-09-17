@@ -1,11 +1,13 @@
+// ignore_for_file: unnecessary_null_comparison
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:rayyan_speed_test/widgets/donwload_upload_buttons_row_widget.dart';
-import 'package:rayyan_speed_test/widgets/download_upload_speed_meter_texts_widget.dart';
-import 'package:rayyan_speed_test/widgets/my_app_bar_widget.dart';
-import 'package:rayyan_speed_test/widgets/speed_meter_radial_gauge_widget.dart';
-import 'package:rayyan_speed_test/widgets/start_stop_button_widget.dart';
+import 'package:rayyan_speed_test_ui/widgets/donwload_upload_buttons_row_widget.dart';
+import 'package:rayyan_speed_test_ui/widgets/download_upload_speed_meter_texts_widget.dart';
+import 'package:rayyan_speed_test_ui/widgets/my_app_bar_widget.dart';
+import 'package:rayyan_speed_test_ui/widgets/speed_meter_radial_gauge_widget.dart';
+import 'package:rayyan_speed_test_ui/widgets/start_stop_button_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -18,7 +20,9 @@ double valueText = 0;
 double value = 0;
 
 class _HomeScreenState extends State<HomeScreen> {
-  bool downloadButtonClickedStatus = true, startButtonClickedStatus = false;
+  bool downloadButtonClickedStatus = true,
+      startButtonClickedStatus = false,
+      isRunning = false;
   late Timer textValueTimer, rangePointersTimer;
 
   @override
@@ -65,7 +69,14 @@ class _HomeScreenState extends State<HomeScreen> {
               StarStopButtonWidget(
                 startButtonClickedStatus: startButtonClickedStatus,
                 onTap: () {
-                  timerInstance();
+                  if (!isRunning) {
+                    isRunning = true;
+                    timerInstance();
+                    return;
+                  }
+                  if (rangePointersTimer.isActive || textValueTimer.isActive) {
+                    return;
+                  }
                 },
               ),
               const SizedBox(
@@ -99,6 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
           valueText += 1;
         } else {
           textValueTimer.cancel();
+          isRunning = false;
         }
       });
     } else {
@@ -107,6 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
           valueText -= 1;
         } else {
           textValueTimer.cancel();
+          isRunning = false;
         }
       });
     }

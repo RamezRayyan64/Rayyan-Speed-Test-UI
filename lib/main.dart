@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:rayyan_speed_test/screens/home_screen.dart';
+import 'package:rayyan_speed_test_ui/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
