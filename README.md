@@ -1,10 +1,35 @@
-# Rayyan Speed Test
+# Rayyan Speed Test UI
 
 A beautiful internet speed test meter UI.
+
+## Download App ![GitHub All Releases](https://img.shields.io/github/downloads/RamezRyyan64/Rayyan-Speed-Test-UI/total?color=green)
+
+<a href="https://github.com/RamezRyyan64/Rayyan-Speed-Test-UI/releases/download/v1.0.0/app-release.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+
+## Screenshots
 
 ![image1](https://user-images.githubusercontent.com/107287484/190613318-22f3ec56-5762-4c3b-9e51-fb329cbc97db.png)
 ![image2](https://user-images.githubusercontent.com/107287484/190613329-4f8e262b-dc2f-42a2-a63b-51e6fe873e31.png)
 ![image3](https://user-images.githubusercontent.com/107287484/190613334-aa18b6c1-dc13-47b6-aaa8-882f2c851f32.png)
+
+## Directory Structure
+```
+lib
+│───main.dart    
+└───screens
+|    └──home_screen.dart
+└───widgets
+     │──donwload_upload_buttons_row_widget.dart
+     │──download_upload_speed_meter_texts_widget.dart
+     │──my_app_bar_widget.dart
+     │──my_text_button_widget.dart
+     │──speed_meter_radial_gauge_widget.dart
+     └──start_stop_button_widget.dart
+```
+
+## Pull Requests
+
+I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
 
 ## Flutter projects
 
@@ -35,17 +60,3 @@ A beautiful internet speed test meter UI.
 ## Visitors Count
 
 <img align="left" src = "https://profile-counter.glitch.me/rayyan_speed_test_ui/count.svg" alt ="Loading">
-<br>
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
