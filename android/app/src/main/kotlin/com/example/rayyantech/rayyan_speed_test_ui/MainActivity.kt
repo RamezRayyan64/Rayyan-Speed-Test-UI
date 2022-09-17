@@ -1,4 +1,4 @@
-package com.rayyantech.rayyan_speed_test_ui
+package com.example.rayyantech.rayyan_speed_test_ui
 
 import io.flutter.embedding.android.FlutterActivity
 
