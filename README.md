@@ -6,6 +6,10 @@ A beautiful internet speed test meter UI.
 ![image2](https://user-images.githubusercontent.com/107287484/190613329-4f8e262b-dc2f-42a2-a63b-51e6fe873e31.png)
 ![image3](https://user-images.githubusercontent.com/107287484/190613334-aa18b6c1-dc13-47b6-aaa8-882f2c851f32.png)
 
+## Visitors Count
+
+<img align="left" src = "https://profile-counter.glitch.me/flutter_ecommerce_app/count.svg" alt ="Loading">
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
