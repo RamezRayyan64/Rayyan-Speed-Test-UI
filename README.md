@@ -8,7 +8,7 @@ A beautiful internet speed test meter UI.
 
 ## Visitors Count
 
-<img align="left" src = "https://profile-counter.glitch.me/flutter_ecommerce_app/count.svg" alt ="Loading">
+<img align="left" src = "https://profile-counter.glitch.me/rayyan_speed_test_ui/count.svg" alt ="Loading">
 
 ## Getting Started
 
