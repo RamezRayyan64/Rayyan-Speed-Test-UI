@@ -41,7 +41,6 @@ I welcome and encourage all pull requests. It usually will take me within 24-48 
  Project Name        |Stars        
 :-------------------------|-------------------------
 |[BMI Calculator App UI](https://github.com/RamezRayyan64/BMI-Calculator-App-UI)| [![GitHub stars](https://img.shields.io/github/stars/RamezRayyan64/BMI-Calculator-App-UI?style=social)](https://github.com/login?return_to=%2FRamezRayyan64%2FBMI-Calculator-App-UI)
-|[Restaurant Food Delivery App UI](https://github.com/RamezRayyan64/Restaurant-Food-Delivery-App-UI) |[![GitHub stars](https://img.shields.io/github/stars/RamezRayyan64/Restaurant-Food-Delivery-App-UI?style=social)](https://github.com/login?return_to=%2FRamezRayyan64%2FRestaurant-Food-Delivery-App-UI)
 |[Sign In Sign Up App UI](https://github.com/RamezRayyan64/Sign-In-Sign-Up-App-UI) |[![GitHub stars](https://img.shields.io/github/stars/RamezRayyan64/Sign-In-Sign-Up-App-UI?style=social)](https://github.com/login?return_to=%2FRamezRayyan64%2FSign-In-Sign-Up-App-UI)
 |[Food Delivery App UI](https://github.com/RamezRayyan64/Food-Delivery-App-UI)|[![GitHub stars](https://img.shields.io/github/stars/RamezRayyan64/Food-Delivery-App-UI?style=social)](https://github.com/login?return_to=%2FRamezRayyan64%2FFood-Delivery-App-UI)
 |[E-Commerce App UI](https://github.com/RamezRayyan64/E-Commerce-App-UI)|[![GitHub stars](https://img.shields.io/github/stars/RamezRayyan64/E-Commerce-App-UI?style=social)](https://github.com/login?return_to=%2FRamezRayyan64%2FE-Commerce-App-UI)
